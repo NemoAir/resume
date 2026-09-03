@@ -208,8 +208,8 @@ h2 .tag{font-family:var(--mono);font-weight:400;font-size:11px;letter-spacing:.1
         <div class="evidence-body">创办回声涌现（EchoWave）：<span class="num">¥100万</span> 天使轮，主导 Nomad + HeadScale + WSL2 沙箱架构，四端系统（<span class="num">13</span> 个代码仓库）正式上线运营。</div>
       </div>
       <div class="evidence-row">
-        <div class="evidence-key">投研系统<small>2024–2026</small></div>
-        <div class="evidence-body">以 AI 结对方式构建三套 A 股投研系统：复刻 Palantir Ontology 的开源运营台（<span class="num">3</span> 天构建、<span class="num">77</span> 测试全绿）、AI 量化决策平台（量化工具箱 + 多模型 AI 中枢）、覆盖 <span class="num">35</span> 个环节节点、<span class="num">100+</span> 个股精读的 AI 算力产业链研究库。<br><a href="https://github.com/NemoAir/palantir-demo" rel="noopener">github.com/NemoAir/palantir-demo</a></div>
+        <div class="evidence-key">投研系统<small>2026</small></div>
+        <div class="evidence-body">以 AI 结对方式构建三套 A 股投研系统：复刻 Palantir Ontology 的开源运营台（<span class="num">3</span> 天构建、<span class="num">77</span> 测试全绿）、AI 量化决策原型（量化工具箱 + 多模型 AI 中枢）、覆盖 <span class="num">35</span> 个环节节点、<span class="num">100+</span> 个股精读的 AI 算力产业链研究库。<br><a href="https://github.com/NemoAir/palantir-demo" rel="noopener">github.com/NemoAir/palantir-demo</a></div>
       </div>
     </div>
   </section>
@@ -295,6 +295,43 @@ h2 .tag{font-family:var(--mono);font-weight:400;font-size:11px;letter-spacing:.1
       </ul>
       <p class="quote">企业接不上大模型，缺的不是模型，是让 AI 能安全操作真实业务的语义层——FDE 在客户现场做的，就是替客户建这一层。</p>
       <p class="demo-link">→ <a href="https://github.com/NemoAir/palantir-demo" rel="noopener">github.com/NemoAir/palantir-demo</a>（README 含 12 张真实运行截图与架构图）</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>项目经历<span class="tag">PROJECTS</span></h2>
+    <div class="bus">
+      <div class="job">
+        <div class="job-head"><h3>EchoWave 分布式算力共享平台</h3><span class="job-time">2025</span></div>
+        <p class="job-role">主导整体架构与关键选型</p>
+        <ul>
+          <li>四端一云共 <span class="num">13</span> 个代码仓库：Java/COLA DDD 后端（集群/节点/任务/用户/钱包五域）、Rust+Tauri Windows 客户端、Nuxt3 用户端、Vue3 运营后台。</li>
+          <li>镜像模板 → Nomad Job 的 GPU 定向调度（按显卡型号约束）、钱包四账本（余额/流水/冻结/结算）、xterm.js + WebSocket 容器 Web 终端、OpenTelemetry 全链路追踪。</li>
+          <li>自营 GPU 服务矩阵作为标杆负载：视频超分（15+ SOTA 模型）、FFmpeg 云转码、文生图、OCR 文档解析，均容器化后以 Nomad 作业运行在自家算力网络。</li>
+        </ul>
+      </div>
+      <div class="job">
+        <div class="job-head"><h3>A 股 AI 算力产业链研究库</h3><span class="job-time">2026</span></div>
+        <p class="job-role">个人项目 · 方法论设计与验收，AI 规模化执行</p>
+        <ul>
+          <li>自研「七阶段研究 SOP + 串行工作台 + 结构化状态机」方法论，以 Claude Code 多工作区并行执行：<span class="num">35</span> 个产业链环节节点、<span class="num">100+</span> 家上市公司年报级精读全部闭环，产出产业全景图谱与个股结构化档案。</li>
+          <li>把 AI 规模化执行的质量控制做成机制：git worktree 并发冲刺、文件所有权矩阵、状态总表真相源——研究工程化的完整实践。</li>
+        </ul>
+      </div>
+      <div class="job">
+        <div class="job-head"><h3>AlphaQuant：A 股 AI 量化决策原型</h3><span class="job-time">2026</span></div>
+        <p class="job-role">个人探索项目 · AI 结对构建（Python）</p>
+        <ul>
+          <li>「量化硬逻辑作为 AI 软逻辑的工具箱」的架构验证：AkShare 数据层 + 技术指标引擎（MA/MACD/RSI/KDJ 等）+ LiteLLM 多模型 AI 中枢，AI 如基金经理动态调用工具，输出决策与置信度；Streamlit + CLI 双界面。</li>
+        </ul>
+      </div>
+      <div class="job">
+        <div class="job-head"><h3>一汽-大众超级 App（OneApp）</h3><span class="job-time">2020.12 – 2024.12</span></div>
+        <p class="job-role">iOS 架构</p>
+        <ul>
+          <li>主导 4.0 版本重构与组件化：重构网络框架，抽离社交分享、Router 等通用库；设计通用埋点方案；负责 Watch 版本与桌面小组件，推动 Flutter 跨端模块落地。</li>
+        </ul>
+      </div>
     </div>
   </section>
 
